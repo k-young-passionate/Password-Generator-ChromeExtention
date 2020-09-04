@@ -1,0 +1,119 @@
+hr {
+    height: 2px;
+    background-color: black;
+    border-color: black;
+}
+
+h1 {
+    align-self: center;
+}
+
+body {
+    align-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+table {
+    /* margin-left: 2%; */
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.1)
+}
+
+th {
+    text-align: start;
+}
+
+td.key{
+    width: 15px;
+    font-weight: bolder;
+    border-right: 1px dashed cornsilk;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+td.value {
+    width: 180px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+td.eye {
+    width: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+td.result {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+td.button {
+    text-align: center;
+}
+
+input.textinput {
+    width: 150px;
+}
+
+textarea.result {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+
+button.thin {
+    width: 250px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(100, 150, 255, 0.9);
+    min-height: 100%; 
+    overflow: scroll;
+}
+
+div.title{
+    height: 120px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: ivory;
+}
+
+div.description {
+    background-color: rgba(255, 255, 255, 0.3);
+    float: left;
+    height: 100%;
+    width: 28%;
+    padding: 1%;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* align-content: center; */
+}
+
+div.content {
+    height: 100%;
+    width: 68%;
+    padding: 1%;
+    float: right;
+}
+
+
+div.input {
+    padding-left: 2%;
+}
+
+div.output{
+    margin-top: 100px;
+}
