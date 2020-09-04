@@ -11,6 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
     wdbtn.addEventListener('click', function() {
         textshow("salt");
     });
+    var cpbtn = document.getElementById('cpbtn');
+    cpbtn.addEventListener('click', function() {
+        copytoCB();
+    });
 });
 
 function textshow(from) {
