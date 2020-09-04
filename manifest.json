@@ -2,7 +2,7 @@
     "name": "Password Converter",
     "version": "1.0",
     "description": "Convert your EASY password into DIFFICULT password!",
-    "permissions": ["declarativeContent"],
+    "permissions": [],
     
     "browser_action": {
         "default_popup": "popup.html",
