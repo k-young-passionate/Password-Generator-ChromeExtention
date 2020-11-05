@@ -163,7 +163,7 @@ function SHA256(origin, salt, include) {
         }
         var c_insufficient = p.length % 6;
         for(var i = c_insufficient; i < 6; i++){
-            p += "0";
+            origin += "0";
         }
         console.log(include=="False")
         if(include=="False"){
